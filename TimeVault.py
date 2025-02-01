@@ -142,7 +142,7 @@ def Banner():
                                                                                   
     print("")
 
-    created_by_text = "Program created by: AnonKryptiQuz"
+    created_by_text = "Program Moded by: BenedictChacko"
     ascii_width = 49
     padding = (ascii_width - len(created_by_text)) // 2
     print(" " * padding + f"{Fore.RED}{created_by_text}")
