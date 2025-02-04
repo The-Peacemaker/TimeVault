@@ -1,6 +1,6 @@
-# **TimeVault: Wayback Machine Information Disclosure Scanner**
+# **TimeMachine: Wayback Machine Information Disclosure Scanner**
 
-**TimeVault** is a specialized tool designed to automate the process of finding potential information disclosure vulnerabilities in web applications by leveraging the Wayback Machine’s archive. The tool filters URLs for sensitive file extensions and fetches status codes to help identify exposed or sensitive data.
+**TimeMachine** is a specialized tool designed to automate the process of finding potential information disclosure vulnerabilities in web applications by leveraging the Wayback Machine’s archive. The tool filters URLs for sensitive file extensions and fetches status codes to help identify exposed or sensitive data.
 
 ## **Features**
 
@@ -24,8 +24,8 @@
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/AnonKryptiQuz/TimeVault.git
-   cd TimeVault
+   [git clone https://github.com/The-Peacemaker/TimeMachine.git]
+   cd TimeMachine
    ```
 
 2. **Install required packages:**
@@ -46,7 +46,7 @@
 1. **Run the tool:**
 
    ```bash
-   python TimeVault.py
+   python TimeMachine.py
    ```
 
 2. **Enter the target URL**: When prompted, provide the URL of the target website (e.g., `https://example.com`).
@@ -74,5 +74,5 @@ All tools are used under their respective open-source licenses.
 
 ## **Author**
 
-**Created by:** [AnonKryptiQuz](https://AnonKryptiQuz.github.io/)
+**Inspired by:** [AnonKryptiQuz](https://AnonKryptiQuz.github.io/)
 
