@@ -134,15 +134,17 @@ def validate_url(url):
         return False
 
 def Banner():
-    print(rf"{Fore.GREEN}  _____ _                                 _ _    ")
-    print(rf"{Fore.GREEN} /__   (_)_ __ ___   ___/\   /\__ _ _   _| | |_  ")
-    print(rf"{Fore.GREEN}   / /\/ | '_ ` _ \ / _ \ \ / / _` | | | | | __| ")
-    print(rf"{Fore.GREEN}  / /  | | | | | | |  __/\ V / (_| | |_| | | |_  ")
-    print(rf"{Fore.GREEN}  \/   |_|_| |_| |_|\___| \_/ \__,_|\__,_|_|\__| ")
                                                                                   
+    print(rf"{Fore.GREEN}.___________. __  .___  ___.  _______    .___  ___.      ___       ______  __    __   __  .__   __.  _______ ")
+    print(rf"{Fore.GREEN}|           ||  | |   \/   | |   ____|   |   \/   |     /   \     /      ||  |  |  | |  | |  \ |  | |   ____|")
+    print(rf"{Fore.GREEN}`---|  |----`|  | |  \  /  | |  |__      |  \  /  |    /  ^  \   |  ,----'|  |__|  | |  | |   \|  | |  |__   ")
+    print(rf"{Fore.GREEN}    |  |     |  | |  |\/|  | |   __|     |  |\/|  |   /  /_\  \  |  |     |   __   | |  | |  . `  | |   __|  ")
+    print(rf"{Fore.GREEN}    |  |     |  | |  |  |  | |  |____    |  |  |  |  /  _____  \ |  `----.|  |  |  | |  | |  |\   | |  |____ ")
+    print(rf"{Fore.GREEN}    |__|     |__| |__|  |__| |_______|   |__|  |__| /__/     \__\ \______||__|  |__| |__| |__| \__| |_______|")
+                                                                                                                
     print("")
 
-    created_by_text = "Program Moded by: BenedictChacko"
+    created_by_text = "Program Moded by: Benedict Chacko"
     ascii_width = 49
     padding = (ascii_width - len(created_by_text)) // 2
     print(" " * padding + f"{Fore.RED}{created_by_text}")
